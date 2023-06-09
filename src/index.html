@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/dist/styles/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header class="hero">
@@ -38,9 +39,8 @@
         </div>
       </div>
     </header>
-
-    <section class="event">
-      <div class="container">
+    <section class="event event--frontend">
+      <div class="container" data-aos="fade-right">
         <div class="event__details">
           <h2 class="event__details__title">Front-end</h2>
           <p class="event__details__description">
@@ -53,6 +53,49 @@
         <img class="event__image" src="./images/frontend.png" alt="Front end" />
       </div>
     </section>
+    <section class="event event--ux-ui event--image-left">
+      <div class="container" data-aos="fade-left">
+        <div class="event__details">
+          <h2 class="event__details__title">Ui/UX</h2>
+          <p class="event__details__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim
+            nam aliquam aperiam, cumque aspernatur sunt voluptatem cupiditate
+            inventore, minus tempore sequi reprehenderit repellat facere. Autem
+            ex corrupti praesentium excepturi!
+          </p>
+        </div>
+        <img class="event__image" src="./images/frontend.png" alt="Front end" />
+      </div>
+    </section>
+    <section class="event event--data-science">
+      <div class="container" data-aos="fade-right">
+        <div class="event__details">
+          <h2 class="event__details__title">Data Science</h2>
+          <p class="event__details__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim
+            nam aliquam aperiam, cumque aspernatur sunt voluptatem cupiditate
+            inventore, minus tempore sequi reprehenderit repellat facere. Autem
+            ex corrupti praesentium excepturi!
+          </p>
+        </div>
+        <img class="event__image" src="./images/frontend.png" alt="Front end" />
+      </div>
+    </section>
+    <section class="event event--backend event--image-left">
+      <div class="container" data-aos="fade-left">
+        <div class="event__details">
+          <h2 class="event__details__title">Backend</h2>
+          <p class="event__details__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim
+            nam aliquam aperiam, cumque aspernatur sunt voluptatem cupiditate
+            inventore, minus tempore sequi reprehenderit repellat facere. Autem
+            ex corrupti praesentium excepturi!
+          </p>
+        </div>
+        <img class="event__image" src="./images/frontend.png" alt="Front end" />
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>
